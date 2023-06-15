@@ -35,33 +35,7 @@ html {
      margin-top: 10px;
      margin-bottom:10px;
 }
-.box #contact-form {
-	
-    /* Remove as content will dictate height */
-    height: 300px;
-    width: 350px;
-    background-color: #F2DDC4;
-    box-shadow: 0 0 20px 0 #999;
-    top: 50%;
-    left: 50%;
-    align-items: center;
-    display: grid;
-    justify-items: center;
-    
-  
-    
-  }
-  .box .input-field {
-    width: 300px;
-    height: 40px;
-    margin-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 1px solid #777;
-    border-radius: 14px;
-    outline: none;
-    align-items: center;
-  }
+
     
   
 /* 2. ---Mobile Library Grid Styles--- */
@@ -87,14 +61,8 @@ html {
     padding-right: 15px;
     /*padding: 0px 15px 0px 15px;*/
 }
-#bt, #button {
-    height: 50px;
-   
-}
 
-#txt, #txts, #text, #texts {
-    height: 50px;
-}
+
   
 .col-span-auto {
     grid-column: span 1 / span 1;
@@ -181,13 +149,7 @@ html {
   .desktop {
     display: none;
   }
-  #txt, #txts, #text, #texts {
-    height: 50px;
-    display: none;
-}
-#tx, #txtx{
-display: none;
-}
+
 
   /*Height for mobile grid*/
 .col-span-4 {
@@ -208,50 +170,11 @@ display: none;
     height: 150px;
 }
 
-#img, #imgs, #h-img,#h-img1,#h-img2,#h-img3,#h-img4,#h-img5,#img1,#img2,#img3,#img4,#img5 {
-    height: 190px;
-}
-
-#logo {
-    height: 120px;
-}
-
-#banner-img, #banner-img2 {
-    height: 200px;
-}
-
-#banner {
-    height: 100px;
-}
-
-#ptxt{
-  text-align: left;
-}
-#contact-form {
-	
-	/* Remove as content will dictate height */
-	height: 300px;
-	width: 350px;
-	background-color: #F2DDC4;
-	box-shadow: 0 0 20px 0 #999;
-	top: 50%;
-	left: 50%;
-	
-
-	
-}
 
 
-.input-field {
-	width: 300px;
-	height: 40px;
-	margin-top: 20px;
-	padding-left: 10px;
-	padding-right: 10px;
-	border: 1px solid #777;
-	border-radius: 14px;
-	outline: none;
-}
+
+
+
   
   /* 3. ---Tablet Library Grid Styles--- */
   
@@ -454,23 +377,7 @@ display: none;
     .desktop {
       display: none;
     }
-    #img, #imgs, #h-img {
-        height: 210px;
-    }
 
-    #banner-img,#banner-img2 {
-        height: 250px;
-        
-    }
-
-  #txt, #txts, #text, #texts {
-    height: 50px;
-    display: block;
-}
-#tx, #txtx{
-    display: block;
-    }
-  }
   /*Height for tablet grid*/
 .col-span-4 {
     height: 270px;
@@ -489,7 +396,7 @@ display: none;
 #foot{
     height: 150px;
 }
-
+  }
   
   /* 4. ---Desktop Library Grid Styles--- */
   
@@ -691,53 +598,9 @@ display: none;
     .desktop {
       display: block;
     }
-    #img, #imgs, #h-img {
-        height: 210px;
-    }
+  }
 
-    #banner-img ,#banner-img2{
-        height: 300px;
-        width: 900px;
-    }
 
-    #txt, #txts, #text, #texts {
-        height: 50px;
-        display: block;
-    }
-    #tx, #txtx{
-        display: block;
-        }
-      }
-    #main-nav {
-      font-size: 30px;
-      
-    }
-    #contact-form {
-	
-      /* Remove as content will dictate height */
-      height: 300px;
-      width: 350px;
-      background-color: #F2DDC4;
-      box-shadow: 0 0 20px 0 #999;
-      top: 50%;
-      left: 50%;
-      box-sizing: content-box;
-    
-      
-    }
-    
-    
-    .input-field {
-      width: 300px;
-      height: 40px;
-      margin-top: 20px;
-      padding-left: 10px;
-      padding-right: 10px;
-      border: 1px solid #777;
-      border-radius: 14px;
-      outline: none;
-    }
-  
 
   /*Height for desktop grid*/
 .col-span-4 {
@@ -958,13 +821,6 @@ display: none;
     .desktop {
       display: block;
     }
-    #txt, #txts, #text, #texts {
-        height: 50px;
-        display: block;
-    }
-    #tx, #txtx{
-        display: block;
-        }
-      }
+  }
   
   
