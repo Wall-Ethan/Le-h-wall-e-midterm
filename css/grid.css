@@ -27,7 +27,7 @@ html {
 }
   
 .box {
-     background-color: rgb(240, 210, 224);
+     
      color: rgb(27, 27, 27);
      border-radius: 5px;
      padding: 20px;
@@ -35,6 +35,34 @@ html {
      margin-top: 10px;
      margin-bottom:10px;
 }
+.box #contact-form {
+	
+    /* Remove as content will dictate height */
+    height: 300px;
+    width: 350px;
+    background-color: #F2DDC4;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    display: grid;
+    justify-items: center;
+    
+  
+    
+  }
+  .box .input-field {
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+    align-items: center;
+  }
+    
   
 /* 2. ---Mobile Library Grid Styles--- */
   
@@ -180,7 +208,7 @@ display: none;
     height: 150px;
 }
 
-#img, #imgs, #h-img {
+#img, #imgs, #h-img,#h-img1,#h-img2,#h-img3,#h-img4,#h-img5,#img1,#img2,#img3,#img4,#img5 {
     height: 190px;
 }
 
@@ -188,12 +216,41 @@ display: none;
     height: 120px;
 }
 
-#banner-img {
+#banner-img, #banner-img2 {
     height: 200px;
 }
 
 #banner {
     height: 100px;
+}
+
+#ptxt{
+  text-align: left;
+}
+#contact-form {
+	
+	/* Remove as content will dictate height */
+	height: 300px;
+	width: 350px;
+	background-color: #F2DDC4;
+	box-shadow: 0 0 20px 0 #999;
+	top: 50%;
+	left: 50%;
+	
+
+	
+}
+
+
+.input-field {
+	width: 300px;
+	height: 40px;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #777;
+	border-radius: 14px;
+	outline: none;
 }
   
   /* 3. ---Tablet Library Grid Styles--- */
@@ -401,9 +458,9 @@ display: none;
         height: 210px;
     }
 
-    #banner-img {
+    #banner-img,#banner-img2 {
         height: 250px;
-        width: 800px;
+        
     }
 
   #txt, #txts, #text, #texts {
@@ -638,7 +695,7 @@ display: none;
         height: 210px;
     }
 
-    #banner-img {
+    #banner-img ,#banner-img2{
         height: 300px;
         width: 900px;
     }
@@ -651,6 +708,35 @@ display: none;
         display: block;
         }
       }
+    #main-nav {
+      font-size: 30px;
+      
+    }
+    #contact-form {
+	
+      /* Remove as content will dictate height */
+      height: 300px;
+      width: 350px;
+      background-color: #F2DDC4;
+      box-shadow: 0 0 20px 0 #999;
+      top: 50%;
+      left: 50%;
+      box-sizing: content-box;
+    
+      
+    }
+    
+    
+    .input-field {
+      width: 300px;
+      height: 40px;
+      margin-top: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: 1px solid #777;
+      border-radius: 14px;
+      outline: none;
+    }
   
 
   /*Height for desktop grid*/
