@@ -27,7 +27,7 @@ html {
 }
   
 .box {
-     background-color: rgb(240, 210, 224);
+     
      color: rgb(27, 27, 27);
      border-radius: 5px;
      padding: 20px;
@@ -35,6 +35,8 @@ html {
      margin-top: 10px;
      margin-bottom:10px;
 }
+
+    
   
 /* 2. ---Mobile Library Grid Styles--- */
   
@@ -59,14 +61,8 @@ html {
     padding-right: 15px;
     /*padding: 0px 15px 0px 15px;*/
 }
-#bt, #button {
-    height: 50px;
-   
-}
 
-#txt, #txts, #text, #texts {
-    height: 50px;
-}
+
   
 .col-span-auto {
     grid-column: span 1 / span 1;
@@ -153,13 +149,7 @@ html {
   .desktop {
     display: none;
   }
-  #txt, #txts, #text, #texts {
-    height: 50px;
-    display: none;
-}
-#tx, #txtx{
-display: none;
-}
+
 
   /*Height for mobile grid*/
 .col-span-4 {
@@ -180,21 +170,17 @@ display: none;
     height: 150px;
 }
 
-#img, #imgs, #h-img {
-    height: 190px;
+#txt, #txts, #text, #texts {
+    display: none;
 }
 
-#logo {
-    height: 120px;
+#txt2, #txts2, #text2, #texts2 {
+  display: block;
 }
 
-#banner-img {
-    height: 200px;
-}
 
-#banner {
-    height: 100px;
-}
+
+
   
   /* 3. ---Tablet Library Grid Styles--- */
   
@@ -397,23 +383,7 @@ display: none;
     .desktop {
       display: none;
     }
-    #img, #imgs, #h-img {
-        height: 210px;
-    }
 
-    #banner-img {
-        height: 250px;
-        width: 800px;
-    }
-
-  #txt, #txts, #text, #texts {
-    height: 50px;
-    display: block;
-}
-#tx, #txtx{
-    display: block;
-    }
-  }
   /*Height for tablet grid*/
 .col-span-4 {
     height: 270px;
@@ -433,6 +403,14 @@ display: none;
     height: 150px;
 }
 
+#txt, #txts, #text, #texts {
+  display: block;
+}
+
+#txt2, #txts2, #text2, #texts2 {
+  display: none;
+}
+  }
   
   /* 4. ---Desktop Library Grid Styles--- */
   
@@ -634,24 +612,17 @@ display: none;
     .desktop {
       display: block;
     }
-    #img, #imgs, #h-img {
-        height: 210px;
-    }
-
-    #banner-img {
-        height: 300px;
-        width: 900px;
-    }
 
     #txt, #txts, #text, #texts {
-        height: 50px;
-        display: block;
+      display: block;
     }
-    #tx, #txtx{
-        display: block;
-        }
-      }
-  
+
+    #txt2, #txts2, #text2, #texts2 {
+      display: none;
+    }
+  }
+
+
 
   /*Height for desktop grid*/
 .col-span-4 {
@@ -872,13 +843,14 @@ display: none;
     .desktop {
       display: block;
     }
+
     #txt, #txts, #text, #texts {
-        height: 50px;
-        display: block;
+      display: block;
     }
-    #tx, #txtx{
-        display: block;
-        }
-      }
+
+    #txt2, #txts2, #text2, #texts2 {
+      display: none;
+    }
+  }
   
   

@@ -4,85 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/grid.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/homepage.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Home Page</title>
 </head>
 <body>
     <h1 class="hidden">IDP Responsive Grid</h1>
 
         <section class="spacer">
-            <header class="grid-con">
-                <div class="col-span-1 m-col-span-2 l-col-span-2 xl-col-span-2 box"><img src=img/logo.png id=logo></div>
-                <nav class="col-start-2 col-end-5 m-col-span-10 l-col-span-10 xl-col-span-10 box">
+            <header id="main-header" class="grid-con">
+                <div class="col-span-1 m-col-span-2 l-col-span-2 xl-col-span-2 box"><img src="img/logo.png" id="logo" alt="image"></div>
+                
+                <nav class="col-start-2 col-end-5 m-col-span-10 l-col-span-10 xl-col-span-10 box" id="main-nav">
                     <h2 class="hidden">Main Mobile, Tablet, Desktop Nav</h2>
-                    <a href="homepage.html">Home</a>
-                    <a href="product.html">Products</a>
-                    <a href="homepage.html">About</a>
+                    <ul>
+                        <li><a class="active" href="homepage.html">Home</a></li>
+                        <li><a href="#">Sale</a></li>
+                        <li><a href="#">Popular</a></li>
+                        <li><a href="#">New In</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
                 </nav>
+           
             </header>
 
             <section class="grid-con">
                 <h2 class="hidden">Hero Image</h2>
                 <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box">
-                    <img src=img/Chopin-Vodka-Chiller.jpg id="banner-img">
+                    <img src="img/ChopinVodka.png" id="banner-img" alt="image">
                 </div>
             </section>
 
             <section class="grid-con">
                 <h2 class="hidden">Paragraph</h2>
-                <div class="col-span-4 m-col-span-6 l-col-span-12 xl-col-span-12 box" id="pr"><h1>The Story</h1> <p>Every year in the fields of our estate in Poland we plant a few special varieties of potatoes and grains, searching for promising new ingredients to distill. In 1993 Chopin created the world’s first super premium vodka, and the luxury vodka category was born.
-
-                    We've remained at the industry's forefront ever since, driven by a guiding purpose: to show the world that well-made, ingredient-forward vodka is worthy of being sipped and savored in the same way as whiskey or wine.</p></div>
+                <div class="col-span-4 m-col-span-6 l-col-span-12 xl-col-span-12 box" id="pr">
+                    <h2>The Story</h2> 
+                    <p>Every year in the fields of our estate in Poland we plant a few special varieties of potatoes and grains, searching for promising new ingredients to distill. In 1993 Chopin created the world's first super premium vodka, and the luxury vodka category was born.</p>
+                </div>
             </section>
  
             <section class="grid-con">
                 <h2 class="hidden">Products</h2>
-                <div class="col-span-4 m-col-span-3 l-col-span-3 xl-col-span-3 box"><img src=img/Entertaining.jpg id="h-img"></div>
-                <div class="col-span-4 m-col-span-3 l-col-span-3 xl-col-span-3 box"><img src=img/Chopin-Vodka-Collection.jpg id="h-img"></div>
-                <div class="col-span-4 m-col-span-3 l-col-span-3 xl-col-span-3 box"><img src=img/Vodka-_-The-Whisky-Exchange.jpg id="h-img"></div>
-                <div class="col-span-4 m-col-span-3 l-col-span-3 xl-col-span-3 box"><img src=img/Chopin-Collection.png id="h-img"></div>
-                <div class="col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box" id="txt"><p>Texts</p></div>
-                <div class="col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box" id="txts"><p>Texts</p></div>
-                <div class="col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box" id="text"><p>Texts</p></div>
-                <div class="col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box" id="texts"><p>Texts</p></div>
+                <div class="col-span-4 m-col-span-3 l-col-span-3 xl-col-span-3 box"><img src="img/Entertaining.jpg" id="h-img" alt="image"></div>
+                <div class="col-span-3" id="txt2"><h3>Chopin Potato Vodka</h3></div>
+                <div class="col-span-4 m-col-span-3 l-col-span-3 xl-col-span-3 box"><img src="img/Chopin-Vodka-Collection.jpg" id="h-img1" alt="image"></div>
+                <div class="col-span-3" id="txts2"><h3>Chopin Rye Vodka</h3></div>
+                <div class="col-span-4 m-col-span-3 l-col-span-3 xl-col-span-3 box"><img src="img/Vodka-_-The-Whisky-Exchange.jpg" id="h-img2" alt="image"></div>
+                <div class="col-span-3" id="text2"><h3>Chopin Wheat Vodka</h3></div>
+                <div class="col-span-4 m-col-span-3 l-col-span-3 xl-col-span-3 box"><img src="img/Chopin-Collection.png" id="h-img3" alt="image"></div>
+                <div class="col-span-3" id="texts2"><h3>Chopin Soul Vodka</h3></div>
+                <div class="m-col-span-3 l-col-span-3 xl-col-span-3 box" id="txt"><h3>Chopin Potato Vodka</h3></div>
+                <div class="col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box" id="txts"><h3>Chopin Rye Vodka</h3></div>
+                <div class="col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box" id="text"><h3>Chopin Wheat Vodka</h3></div>
+                <div class="col-span-2 m-col-span-3 l-col-span-3 xl-col-span-3 box" id="texts"><h3>Chopin Soul Vodka</h3></div>
             </section>
 
             <section class="grid-con">
                 <h2 class="hidden">Video</h2>
                 <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box">
-                    <p>Video</p>
+                    <img src="img/chopin.jpg" id="banner-img2" alt="image">
                 </div>
             </section>
  
             <section class="grid-con">
                 <h2 class="hidden">Banner</h2>
                 <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box" id="banner">
-                    <p>Banner</p>
+                    <p>As for our water, it is drawn from an artesian spring deep beneath the earth, using our own on-site well.
+                    
+                        Once in the hands of Chopin's master distiller, an ancient alchemy transforms these humble ingredients into the world's finest single-ingredient vodkas.</p>
                 </div>
             </section>
             <section class="grid-con">
                 <h2 class="hidden">Products</h2>
-                <div class="col-span-4 m-col-span-5 l-col-span-5 xl-col-span-5 box"><img src=img/side-vodka.png id="h-img"></div>
-                <div class="col-span-3 m-col-span-7 l-col-span-7 xl-col-span-7 box" id="tx"><p>Once in a decade, if we are lucky, we discover an exceptional variety of potato that produces an unrivaled vodka.
+                <div class="col-span-4 m-col-span-5 l-col-span-5 xl-col-span-5 box"><img src="img/side-vodka.png" id="h-img4" alt="image"></div>
+                <div class=" col-span-3 m-col-span-7 l-col-span-7 xl-col-span-7 box" id="tx"><p>Once in a decade, if we are lucky, we discover an exceptional variety of potato that produces an unrivaled vodka.
 
-                    Our 2016 growing season led to some of the finest vodkas ever made by our distillery. Harvested at the peak of summer, when still young and their skins still tender, these potatoes would produce a remarkable vodka.</p></div>
-                <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box" id="bt"></div>
+                    Our 2016 growing season led to some of the finest vodkas ever made by our distillery. Harvested at the peak of summer, when still young and their skins still tender, these potatoes would produce a remarkable vodka.Chopin focuses on three styles of vodka  potato, rye and wheat. Each is a celebration of impeccable produce and masterful craft that draws out the unique flavor of the ingredients.We don't produce artificially flavored vodka and we never will. When ingredients are this pure, they speak for themselves.</p></div>
+                <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box " id="bt"></div>
                 <div class="col-span-3 m-col-span-7 l-col-span-7 xl-col-span-7 box" id="txtx"><p>After being carefully distilled to retain as much of their sweet earthiness as possible, the potato spirit was rested in 50-year-old oak barrels for two years, giving it time to mellow before being bottled by hand.
 
-                    The result is Chopin Family Reserve, the worlds first rested, super-premium potato vodka. We suggest enjoying it neat or in a classic martini to fully appreciate this remarkable vodka.</p></div>
-                <div class="col-span-4 m-col-span-5 l-col-span-5 xl-col-span-5 box"><img src=img/Vera-Wang-Vodka.png id="h-img"></div>
+                    The result is Chopin Family Reserve, the worlds first rested, super-premium potato vodka. We suggest enjoying it neat or in a classic martini to fully appreciate this remarkable vodka.All our crops are grown within 20 miles of our distillery near Krzesk, in the farming heartland of eastern Poland. This allows us to work closely with our suppliers to maintain the quality our vodka demands, personally selecting ingredients to ensure only the very best are used.</p></div>
+                <div class="col-span-4 m-col-span-5 l-col-span-5 xl-col-span-5 box"><img src="img/Vera-Wang-Vodka.png" id="h-img5" alt="image"></div>
                 <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box" id="button"></div>
                 
             </section>
-            <footer class="grid-con">
+            <footer id="footer-con" class="grid-con">
                 <h2 class="hidden">You made it to the end</h2>
-                <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box" id="footer"><h3>EXPLORE</h3>
-                    HERITAGE<br>
-                    DISTILLERY<br>
-                    RECIPES<br>
+                <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box" id="footer">
+                
+                        <article id="footer-nav" class="box-color">
+                            <h2 class="hidden">Main Navigation</h2>
+                            <nav class="footer-nav" id="m-nav">
+                                
+                                
+                                <ul>
+                                    <li><a class="active" href="index.html">Easy Return</a></li>
+                                    <li><a href="#">Track My Order</a></li>
+                                    <li><a href="#">Shipping Policy</a></li>
+                                    <li><a href="#">FAQs</a></li>
+                                    <li><a href="#">Term Of Service</a></li>
+                                </ul>
+                            </nav>
+                            
+                        </article>
                 </div>
             </footer> 
         </section>
-        <script src="js/main.js"></script>
+        <script src="https://kit.fontsawsome.com/0eab0f8aa6.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
