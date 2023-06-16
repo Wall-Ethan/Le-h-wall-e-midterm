@@ -70,7 +70,7 @@ header {
  
  #main-nav ul li {
 	display: inline;
-	margin-right:28px;
+	margin-right:20px;
 	
  }
  
@@ -164,9 +164,9 @@ header {
 	width: 350px;
 	top: 50%;
 	left: 50%;
-	
-
-	
+	margin: 0 auto;
+	display: block;
+	padding: 30px;
 }
 
 .input-field {
@@ -181,7 +181,7 @@ header {
 }
 
 #contact-text {
-	text-align: left;
+	text-align: center;
     color:#fff ;
 }
 
