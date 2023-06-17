@@ -181,6 +181,7 @@ html {
 
 
 
+
   
   /* 3. ---Tablet Library Grid Styles--- */
   
@@ -403,6 +404,7 @@ html {
     height: 150px;
 }
 
+
 #txt, #txts, #text, #texts {
   display: block;
 }
@@ -410,6 +412,7 @@ html {
 #txt2, #txts2, #text2, #texts2 {
   display: none;
 }
+
   }
   
   /* 4. ---Desktop Library Grid Styles--- */
@@ -612,6 +615,7 @@ html {
     .desktop {
       display: block;
     }
+
 
     #txt, #txts, #text, #texts {
       display: block;
@@ -844,6 +848,7 @@ html {
       display: block;
     }
 
+
     #txt, #txts, #text, #texts {
       display: block;
     }
@@ -851,6 +856,7 @@ html {
     #txt2, #txts2, #text2, #texts2 {
       display: none;
     }
+
   }
   
   
