@@ -170,6 +170,13 @@ html {
     height: 150px;
 }
 
+#txt, #txts, #text, #texts {
+    display: none;
+}
+
+#txt2, #txts2, #text2, #texts2 {
+  display: block;
+}
 
 
 
@@ -396,6 +403,16 @@ html {
 #foot{
     height: 150px;
 }
+
+
+#txt, #txts, #text, #texts {
+  display: block;
+}
+
+#txt2, #txts2, #text2, #texts2 {
+  display: none;
+}
+
   }
   
   /* 4. ---Desktop Library Grid Styles--- */
@@ -597,6 +614,15 @@ html {
       
     .desktop {
       display: block;
+    }
+
+
+    #txt, #txts, #text, #texts {
+      display: block;
+    }
+
+    #txt2, #txts2, #text2, #texts2 {
+      display: none;
     }
   }
 
@@ -821,6 +847,16 @@ html {
     .desktop {
       display: block;
     }
+
+
+    #txt, #txts, #text, #texts {
+      display: block;
+    }
+
+    #txt2, #txts2, #text2, #texts2 {
+      display: none;
+    }
+
   }
   
   

@@ -70,7 +70,11 @@ header {
  
  #main-nav ul li {
 	display: inline;
+
+	margin-right:20px;
+
 	margin-right:28px;
+
 	
  }
  
@@ -90,7 +94,11 @@ header {
  
  /* apply to the element that has a class of 'active' */
  #main-nav ul li a.active {
+
+	padding-bottom:2px;
+
 	padding-bottom:8px;
+
 	border-bottom: 3px solid #c57d2b;
  }
  #footer-con {
@@ -143,7 +151,11 @@ header {
  
  /* apply to the element that has a class of 'active' */
  #footer-nav ul li a.active {
+
+	padding-bottom:2px;
+
 	padding-bottom:8px;
+
 	border-bottom: 3px solid #c57d2b;
  }
  
@@ -164,9 +176,15 @@ header {
 	width: 350px;
 	top: 50%;
 	left: 50%;
+
+	margin: 0 auto;
+	display: block;
+	padding: 30px;
+
 	
 
 	
+
 }
 
 .input-field {
@@ -181,6 +199,19 @@ header {
 }
 
 #contact-text {
+
+	text-align: center;
+    color:#fff ;
+}
+
+#txt, #txts, #text, #texts {
+    height: 50px;
+   
+}
+#tx, #txtx{
+    margin-left: 100px;
+
 	text-align: left;
     color:#fff ;
+
 }
