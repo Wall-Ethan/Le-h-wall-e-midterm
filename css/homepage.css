@@ -76,9 +76,6 @@ section h2, section h3, section p {
  
  #main-nav ul li {
 	display: inline;
-
-	margin-right:20px;
-
 	margin-right:28px;
 
 	
@@ -102,9 +99,6 @@ section h2, section h3, section p {
  #main-nav ul li a.active {
 
 	padding-bottom:2px;
-
-	padding-bottom:8px;
-
 	border-bottom: 3px solid #c57d2b;
  }
  #footer-con {
@@ -156,8 +150,6 @@ section h2, section h3, section p {
  #footer-nav ul li a.active {
 
 	padding-bottom:2px;
-=======
-	padding-bottom:8px;
 
 	border-bottom: 3px solid #c57d2b;
  }

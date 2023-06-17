@@ -71,8 +71,6 @@ header {
  #main-nav ul li {
 	display: inline;
 
-	margin-right:20px;
-
 	margin-right:28px;
 
 	
@@ -96,8 +94,6 @@ header {
  #main-nav ul li a.active {
 
 	padding-bottom:2px;
-
-	padding-bottom:8px;
 
 	border-bottom: 3px solid #c57d2b;
  }
@@ -153,8 +149,6 @@ header {
  #footer-nav ul li a.active {
 
 	padding-bottom:2px;
-
-	padding-bottom:8px;
 
 	border-bottom: 3px solid #c57d2b;
  }
