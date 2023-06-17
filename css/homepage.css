@@ -76,7 +76,11 @@ section h2, section h3, section p {
  
  #main-nav ul li {
 	display: inline;
+
 	margin-right:20px;
+
+	margin-right:28px;
+
 	
  }
  
@@ -96,7 +100,11 @@ section h2, section h3, section p {
  
  /* apply to the element that has a class of 'active' */
  #main-nav ul li a.active {
+
 	padding-bottom:2px;
+
+	padding-bottom:8px;
+
 	border-bottom: 3px solid #c57d2b;
  }
  #footer-con {
@@ -146,7 +154,11 @@ section h2, section h3, section p {
  
  /* apply to the element that has a class of 'active' */
  #footer-nav ul li a.active {
+
 	padding-bottom:2px;
+=======
+	padding-bottom:8px;
+
 	border-bottom: 3px solid #c57d2b;
  }
  
@@ -154,6 +166,7 @@ section h2, section h3, section p {
     height: 50px;
    
 }
+
 #tx{
     margin-left: 100px;
 }
@@ -163,6 +176,12 @@ section h2, section h3, section p {
 	text-align: center;
 	margin-left: 120px;
 }
+
+
+#tx, #txtx{
+    margin-left: 100px;
+}
+
 
 #h-img, #h-img1, #h-img2, #h-img3{
     height: 190px;
